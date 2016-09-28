@@ -29,6 +29,35 @@
     <div class="container">
       <section id="main_content">
         <p>Welcome to Eric Bohler's Profile Page!</p>
+
+<hr>
+
+<p>Here's a fun little program that I threw together.</p>
+
+<pre><code> `using System;
+
+namespace Hello_World
+{
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("What is your name?"); 
+        string a = Console.ReadLine();  
+        string b = "Hello " + a + "!";  
+        Console.WriteLine(b);  
+        Console.WriteLine("How are you doing today?");
+        string c = Console.ReadLine();
+        Console.WriteLine("That's " + c + "!");
+        Console.WriteLine("I'm glad you're " + c + ". ");
+        Console.WriteLine("I'm " + c + " too!");
+        Console.WriteLine("Goodbye. Press any key to get back to your "+c+" life, "+a);
+        Console.ReadKey();  //waits for keypress to close console
+        }
+    }
+}
+`
+</code></pre>
       </section>
     </div>
 

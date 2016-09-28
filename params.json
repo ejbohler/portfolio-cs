@@ -1,6 +1,6 @@
 {
   "name": "Portfolio-cs",
   "tagline": "Eric Bohler's C# (C Sharp) Portfolio",
-  "body": "Welcome to Eric Bohler's Profile Page!",
+  "body": "Welcome to Eric Bohler's Profile Page!\r\n\r\n***\r\nHere's a fun little program that I threw together.\r\n   \r\n     `using System;\r\n\r\n    namespace Hello_World\r\n    {\r\n    class Program\r\n    {\r\n        static void Main(string[] args)\r\n        {\r\n            Console.WriteLine(\"What is your name?\"); \r\n            string a = Console.ReadLine();  \r\n            string b = \"Hello \" + a + \"!\";  \r\n            Console.WriteLine(b);  \r\n            Console.WriteLine(\"How are you doing today?\");\r\n            string c = Console.ReadLine();\r\n            Console.WriteLine(\"That's \" + c + \"!\");\r\n            Console.WriteLine(\"I'm glad you're \" + c + \". \");\r\n            Console.WriteLine(\"I'm \" + c + \" too!\");\r\n            Console.WriteLine(\"Goodbye. Press any key to get back to your \"+c+\" life, \"+a);\r\n            Console.ReadKey();  //waits for keypress to close console\r\n            }\r\n        }\r\n    }\r\n    `",
   "note": "Don't delete this file! It's used internally to help with page regeneration."
 }
